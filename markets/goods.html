@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<!-- ssass -->
+<html lang="ar">
+
+<head>
+    <!--  -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/maine.css">
+    <link rel="stylesheet" href="../css/media table api.css">
+    <link rel="stylesheet" href="../css/media drop nav.css">
+    <link rel="stylesheet" href="../bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="../fonts/icomoon/style.css">
+    <link rel="stylesheet" href="../css/media videos.css">
+
+    <link rel="stylesheet" href="../cssNavBar/owl.carousel.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../cssNavBar/bootstrap.min.css">
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="../cssNavBar/style.css">
+    <!-- ::Marquee -->
+    <link rel="stylesheet" href="../css/style marquee.css">
+    <link rel="icon" href="../images/logo/logo footer.svg">
+    <title>السلع</title>
+    <!--  -->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> -->
+    <link rel="stylesheet" href="../css/swiper-bundle.css">
+    <!-- Demo styles -->
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+
+        body {
+            background: #ffffff;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            min-width: 112px;
+        }
+    </style>
+
+    <!--  -->
+</head>
+
+<body>
+    <span id="top_link"></span>
+    <!-- Start holder -->
+    <!-- pouba one -->
+    <div class="holder" id="holder"></div>
+    <div class="pop" id="pop_j">
+        <h4>تسجيل الأفراد</h4>
+        <div id="links">
+            <input type="text" placeholder="الاسم" name="name">
+            <input type="text" placeholder="الايميل الالكتروني" name="email" id="">
+            <input type="tel" placeholder="رقم الهاتف" name="phone" id="">
+            <div class="remember_me">
+                <input type="checkbox" name="remember_me" id="rememberMe">
+                <label for="rememberMe">تذكرني</label>
+            </div>
+            <a href="#" class="reg">تسجيل</a>
+        </div>
+    </div>
+    <!-- pouba two -->
+    <div class="holdere" id="holdere"></div>
+    <div class="pope" id="pop_je">
+        <h4>تسجيل الشركات</h4>
+        <div id="linkse">
+            <input type="text" placeholder="اسم الشركه" name="name">
+            <input type="text" placeholder="الايميل الالكتروني" name="email" id="">
+            <input type="tel" placeholder="رقم الهاتف" name="phone" id="">
+            <div class="remember_mee">
+                <input type="checkbox" name="remember_me" id="rememberMee">
+                <label for="rememberMe">تذكرني</label>
+            </div>
+            <a href="#" class="reg">تسجيل</a>
+        </div>
+    </div>
+    <!-- End holder -->
+    <!-- Start Nav bar -->
+    <div id="fatherNav" style="padding-bottom: 200px;">
+
+        <div class="site-mobile-menu site-navbar-target">
+            <div class="site-mobile-menu-header">
+              <div class="site-mobile-menu-close mt-3">
+                <span class="icon-close2 js-menu-toggle"></span>
+              </div>
+            </div>
+            <div class="site-mobile-menu-body text-center"></div>
+          </div> <!-- .site-mobile-menu -->
+          <div class="site-navbar-wrap">
+            <div class="site-navbar-top">
+              <div class="container py-3">
+                <div class="row align-items-center">
+                  <div class="col-6">
+                    <div class="d-flex  mr-auto" style="margin-right: 5px;">
+                        <a href="./../EN/markets/goods.html"  style="margin-right: 10px;">
+                            
+                            <span><img style="max-width: 30px;" src="../icons/280px-Flag_of_the_United_States.svg.png" alt=""></span>
+                            <span id="mylan">English</span>
+                        </a>
+                      <a href="mailto: info@greencandles-m.com" class="d-flex align-items-center mr-4">
+                        <span class="icon-envelope mr-2"></span>
+                        <span class="d-none  d-md-inline-block" style="white-space: nowrap;" id="inf">info@greencandles-m.com</span>
+                      </a>
+                      <a href="tel: 045106740" class="d-flex align-items-center mr-auto">
+                        <span class="icon-phone mr-2"></span>
+                        <span class="d-none d-md-inline-block" id="pho">04&nbsp;510&nbsp;6700</span>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-6 text-right">
+                    <div class="mr-auto">
+                      <a href="https://twitter.com/greencandlesm" class="p-2 pl-0"><span class="icon-twitter"></span></a>
+                      <a href="https://www.facebook.com/Greencandlesm/" class="p-2 pl-0"><span class="icon-facebook"></span></a>
+                      <a href="https://www.linkedin.com/company/greencandlesm/about/" class="p-2 pl-0"><span class="icon-linkedin"></span></a>
+                      <a href="https://www.instagram.com/greencandlesm/" class="p-2 pl-0"><span class="icon-instagram"></span></a>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="site-navbar site-navbar-target js-sticky-header">
+              <div class="container" id="scrolMove">
+                <div class="row align-items-center">
+                  <div class="col-2">
+                    <a href="#top_link">
+                      <img
+                        src="../images/logo/logo footer.svg"
+                        style="max-width: 130px"
+                        alt="جرين كاندلز"
+                      />
+                    </a>
+                  </div>
+                  <div class="col-10">
+                    <nav class="site-navigation text-right" role="navigation">
+                      <div class="container">
+                        <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3">
+                          <a
+                            href="#"
+                            class="site-menu-toggle js-menu-toggle text-white"
+                            ><span class="icon-menu h3"></span
+                          ></a>
+                        </div>
+    
+                        <ul
+                          class="site-menu main-menu js-clone-nav d-none d-lg-block"
+                        >
+                          <!-- <li class="active"><a  class="nav-link">Home</a></li> -->
+                          <li>
+                            <div class="concted_search">
+                              <a href="../Join request.html" class="">انضم الان</a>
+                              <!-- search -->
+                              <div class="search" style="display: none;">
+                                <input
+                                  type="text"
+                                  class="srch"
+                                  placeholder="Search"
+                                />
+                                <i class="migov"
+                                  ><img src="./icons/Search (1).png" alt=""
+                                /></i>
+                              </div>
+                            </div>
+                          </li>
+    
+                          <li class="has-children">
+                            <a class="nav-link">الاسواق</a>
+                            <ul class="dropdown arrow-top text-center">
+                              <!-- <li>
+                                <a href="./markets/coins .html" class="nav-link"
+                                  >العملات</a
+                                >
+                              </li> -->
+                              <li>
+                                <a  href="./shares.html" class="nav-link"
+                                  >الاسهم</a
+                                >
+                              </li>
+                              <li>
+                                <a
+                                  href="./Cryptocurrency.html"
+                                  class="nav-link"
+                                  >العملات الرقمية</a
+                                >
+                              </li>
+                              <li>
+                                <a 
+                                  href="./forex.html"
+                                  class="nav-link"
+                                  >فوركس</a
+                                >
+                              </li>
+                              <li>
+                                <a style="background: #383838c2; color: white;" href="./goods.html" class="nav-link"
+                                  >السلع</a
+                                >
+                              </li>
+                              <li>
+                                <a
+                                  href="./Indications.html"
+                                  class="nav-link"
+                                  >المؤشرات</a
+                                >
+                              </li>
+                              <!--<li>
+                                <a
+                                  href="./markets/index funds.html"
+                                  class="nav-link"
+                                  >صناديق المؤشرات</a
+                                >
+                              </li>
+                              <li>
+                                <a href="./markets/Boxes.html" class="nav-link"
+                                  >صناديق</a
+                                >
+                              </li>
+                              <li>
+                                <a href="./markets/bond.html" class="nav-link"
+                                  >السندات</a
+                                >
+                              </li>-->
+                            </ul>
+                          </li>
+                          <li class="has-children">
+                            <a class="nav-link">مواضعنا</a>
+                            <ul class="dropdown arrow-top text-center">
+                              <!-- <li>
+                                <a href="./markets/coins .html" class="nav-link"
+                                  >العملات</a
+                                >
+                              </li> -->
+                              <li>
+                                <a href="../artical.html" class="nav-link"
+                                  >المقالات</a
+                                >
+                              </li>
+                              <li>
+                                <a
+                                  href="../seminars.html"
+                                  class="nav-link"
+                                  >الندوات</a
+                                >
+                              </li>
+                            </ul>
+                          </li>
+                          <!-- <li class="has-children">
+                                <a class="nav-link">التعليم</a>
+                                <ul class="dropdown arrow-top text-center">
+                                  <li><a href="#" class="nav-link">فهرس الكتاب</a></li>
+                                  <li><a href="#" class="nav-link">النصائح</a></li>
+                                  <li><a href="#" class="nav-link">الدورات التدريبية</a></li>
+                                </ul>
+                              </li> -->
+                          <!-- <li><a href="stock-market.html.html" class="nav-link">الاسواق</a></li> -->
+                          <li>
+                            <a href="../jobs.html.html" class="nav-link">وظائف</a>
+                          </li>
+                          <li>
+                            <a href="../partners.html.html" class="nav-link"
+                              >الشركات</a
+                            >
+                          </li>
+                          <!-- <li><a href="./services.html.html" class="nav-link">الخدمات</a></li> -->
+                          <li>
+                            <a href="../about.html.html" class="nav-link">من نحن</a>
+                          </li>
+                          <li><a href="../index.html"  class="nav-link">الرئيسية</a></li>
+                        </ul>
+                      </div>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+              <!-- API -->
+              <!-- TradingView Widget BEGIN -->
+              <div class="tradingview-widget-container" style="z-index: 77">
+                <div class="tradingview-widget-container__widget"></div>
+                <!-- <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/" rel="noopener"
+                                target="_blank"><span class="blue-text">Markets</span></a> by TradingView</div> -->
+                <script
+                  type="text/javascript"
+                  src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js"
+                  async
+                >
+                  {
+                      "symbols": [
+                          {
+                              "proName": "FOREXCOM:SPXUSD",
+                              "title": "S&P 500"
+                          },
+                          {
+                              "proName": "FOREXCOM:NSXUSD",
+                              "title": "US 100"
+                          },
+                          {
+                              "proName": "FX_IDC:EURUSD",
+                              "title": "EUR/USD"
+                          },
+                          {
+                              "proName": "BITSTAMP:BTCUSD",
+                              "title": "Bitcoin"
+                          },
+                          {
+                              "proName": "BITSTAMP:ETHUSD",
+                              "title": "Ethereum"
+                          }
+                      ],
+                          "showSymbolLogo": true,
+                              "colorTheme": "light",
+                                  "isTransparent": false,
+                                      "displayMode": "adaptive",
+                                          "locale": "en"
+                  }
+                </script>
+              </div>
+              <!-- TradingView Widget END -->
+            </div>                </div>
+    </div>
+    <!-- End Nav bar -->
+
+
+
+
+    <div class="hedar_sc_three heading pt-5 pb-5 container" style="margin-bottom: 50px;">
+      <span class="dash_left"></span>
+        <h2 class="text-center pl-3 pr-3" >السلع</h2>
+      <span class="dash_left"></span>
+    </div>
+
+<hr/>
+    <!--########## Start code location ##############-->
+    <div class="widget-2 conetnt" >
+      <div class="hedar_sc_three" style="margin-bottom: 50px;">
+        <span class="dash_left"></span>
+        <h1>Gold مخطط</h1>
+        <span class="dash_left"></span>
+      </div>
+<div class="tradingview-widget-container" style="height: 600px;">
+  <div id="tradingview_2832d" style="height: 100%;"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/COMEX-GC1!/" rel="noopener" target="_blank"><span class="blue-text"></span></a> </div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.widget(
+  {
+  "autosize": true,
+  "symbol": "COMEX:GC1!",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "light",
+  "style": "1",
+  "locale": "en",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "allow_symbol_change": true,
+  "container_id": "tradingview_2832d"
+}
+  );
+  </script>
+</div>
+<!-- TradingView Widget END -->
+    </div>
+
+
+
+
+    <div class="widget-2 conetnt" >
+      <div class="hedar_sc_three" style="margin-bottom: 50px;">
+        <span class="dash_left"></span>
+        <h1>SILVER  مخطط</h1>
+        <span class="dash_left"></span>
+      </div>
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container" style="height: 600px;">
+  <div id="tradingview_a2cf7" style="height: 100%;"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/COMEX-SI1!/" rel="noopener" target="_blank"><span class="blue-text"></span></a> </div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.widget(
+  {
+  "autosize": true,
+  "symbol": "COMEX:SI1!",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "light",
+  "style": "1",
+  "locale": "en",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "allow_symbol_change": true,
+  "container_id": "tradingview_a2cf7"
+}
+  );
+  </script>
+</div>
+<!-- TradingView Widget END -->
+    </div>
+
+
+
+
+    <div class="widget-2 conetnt" >
+      <div class="hedar_sc_three" style="margin-bottom: 50px;">
+        <span class="dash_left"></span>
+        <h1>LIGHT CRUDE OIL   مخطط</h1>
+        <span class="dash_left"></span>
+      </div>
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container" style="height: 600px;">
+  <div id="tradingview_a969a" style="height: 100%;"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/NYMEX-CL1!/" rel="noopener" target="_blank"><span class="blue-text"></span></a> </div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.widget(
+  {
+  "autosize": true,
+  "symbol": "NYMEX:CL1!",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "light",
+  "style": "1",
+  "locale": "en",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "allow_symbol_change": true,
+  "container_id": "tradingview_a969a"
+}
+  );
+  </script>
+</div>
+<!-- TradingView Widget END -->
+    </div>
+    <div class="widget-2 conetnt" >
+      <div class="hedar_sc_three" style="margin-bottom: 50px;">
+        <span class="dash_left"></span>
+        <h1>NATURAL GAS   مخطط</h1>
+        <span class="dash_left"></span>
+      </div>
+      <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container" style="height: 600px;">
+  <div id="tradingview_65def" style="height: 100%;"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/NYMEX-NG1!/" rel="noopener" target="_blank"><span class="blue-text"></span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.widget(
+  {
+  "autosize": true,
+  "symbol": "NYMEX:NG1!",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "light",
+  "style": "1",
+  "locale": "en",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "allow_symbol_change": true,
+  "container_id": "tradingview_65def"
+}
+  );
+  </script>
+</div>
+<!-- TradingView Widget END -->
+    </div>
+    <div class="widget-2 conetnt" >
+      <div class="hedar_sc_three" style="margin-bottom: 50px;">
+        <span class="dash_left"></span>
+        <h1>CORN  مخطط</h1>
+        <span class="dash_left"></span>
+      </div>
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container" style="height: 600px;">
+  <div id="tradingview_debde" style="height: 100%;"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/CBOT-ZC1!/" rel="noopener" target="_blank"><span class="blue-text"></span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.widget(
+  {
+  "autosize": true,
+  "symbol": "CBOT:ZC1!",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "light",
+  "style": "1",
+  "locale": "en",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "allow_symbol_change": true,
+  "container_id": "tradingview_debde"
+}
+  );
+  </script>
+</div>
+<!-- TradingView Widget END -->
+    </div>
+    <!-- start footer -->
+    <footer style="margin-top: 0px;">
+        <div class="footer_services">
+            <div class="services_one">
+                <p>تواصل معنا</p>
+                <a href="tel: 045106700" class="">
+                    <img src="../icons/ (1).svg" alt=" (1)">
+                    <span>04&nbsp;5106&nbsp;700</span>
+                </a>
+                <a href="mailto: info@greencandles-m.com" class="email">                
+                    <img src="../icons/(2).svg" alt=" (2)">
+                    <span>info@greencandles-m.com</span>
+                </a>
+                <a href="./index.html" class="com">
+                    <img src="../icons/(3).svg" alt=" (3)">
+                    <span>www.greencandles-m.com</span>
+                </a>
+                <a href="tel: +971585846459" class="whatsapp">
+                    <img src="../icons/ (1).svg" alt=" (1)">
+                    <span>971585846459+</span>
+                </a>
+                <a href="https://goo.gl/maps/8aV96PSU4DFfBJLJ7" class="loc">
+                    <img src="../icons/(5).svg" alt=" (5)">
+                    <span>عنوان الشركة \ مكتب (1202)
+                        الطابق (12) برج الصقر للأعمال (91) شارع الشيخ زايد– المركز التجاري DIFC – دبي</span>
+                </a>
+            </div>
+            <div class="services_two">
+                <p>جرين كاندلز</p>
+                <a href="../index.html" class="col2_row_1">
+                    <img src="../icons/(arrow ehite).svg" alt="arrow ehite">
+                    <span>الرئيسية</span>
+                </a>
+                <a href="./about.html.html" class="col2_row_2">
+                    <img src="../icons/(arrow ehite).svg" alt="arrow ehite">
+                    <span>من نحن</span>
+                </a>
+                <!-- <a href="./services.html.html" class="col2_row_3">
+                    <img src="./icons/(arrow ehite).svg" alt="arrow ehite">
+                    <span>خدمتنا</span>
+                </a> -->
+                <a href="./partners.html.html" class="col2_row_4">
+                    <img src="../icons/(arrow ehite).svg" alt="arrow ehite">
+                    <span>شركائنا</span>
+                </a>
+                <a href="./jobs.html.html" class="col2_row_5">
+                    <img src="../icons/(arrow ehite).svg" alt="arrow ehite">
+                    <span>الوظائف</span>
+                </a>
+                <!-- <a href="./markting-activity.html.html" class="col2_row_6">
+                    <img src="./icons/(arrow ehite).svg" alt="arrow ehite">
+                    <span>أنشطة التسويق</span>
+                </a> -->
+            </div>
+            <!-- <div class="services_three">
+                <p>الاسواق</p>
+                <a href="#" class="col2_row_1">
+                    <img src="./icons/(arrow ehite).svg" alt="arrow ehite">
+                    <span>أسواق العملات الأجنبية</span>
+                </a>
+                <a href="#" class="col2_row_2">
+                    <img src="./icons/(arrow ehite).svg" alt="arrow ehite">
+                    <span>أسواق العملات المشفرة</span>
+                </a>
+                <a href="#" class="col2_row_3">
+                    <img src="./icons/(arrow ehite).svg" alt="arrow ehite">
+                    <span>أسواق المعادن الثمينة</span>
+                </a>
+                <a href="#" class="col2_row_4">
+                    <img src="./icons/(arrow ehite).svg" alt="arrow ehite">
+                    <span>أسواق الطاقة</span>
+                </a>
+                <a href="#" class="col2_row_5">
+                    <img src="./icons/(arrow ehite).svg" alt="arrow ehite">
+                    <span>أسواق السلع</span>
+                </a>
+                <a href="#" class="col2_row_6">
+                    <img src="./icons/(arrow ehite).svg" alt="arrow ehite">
+                    <span>أسواق مؤشرات الأسهم العالمية</span>
+                </a>
+            </div> -->
+            <div class="services_four">
+                <img src="../images/logo/logo footer.svg" alt="logo footer">
+                <p>جرين جاندلز هي واحدة من شركات الأدارة التسويقية الرائدة في دولة الامارات العربية المتحدة و المتخصصة
+                    في أعمال التسويق
+                    الإلكتروني و التسويق الرقمي و الوسيط المعرف بين العملاء وشركات الوساطة المالية والمعروفة في جميع
+                    أنحاء العالم بمعاييرها
+                    العالية من حيث المصداقية والشفافية</p>
+            </div>
+        </div>
+        <hr>
+        <div class="footer_bottom" style="padding: 20px 10px; background-color: #383838;">
+            <div class="last_fotere_p_2">
+                <p> <a href="https://adsamy.com/" class="text-decoration-none text-white">Copyright &copy; 2022. Design and developed by Adsamy Marketing Agency</a></p>
+            </div>
+            <!-- <p class="tarks">الترخيص واللوائح &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; تحذير الاحتيال
+                &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; الشروط والاحكام &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; نهج الخصوصية
+            </p> -->
+            <div class="col-6 text-right">
+                <div class="mr-auto" id="jfs">
+                  <a href="https://twitter.com/greencandlesm" class="p-2 pl-0"><span class="icon-twitter"></span></a>
+                  <a href="https://www.facebook.com/Greencandlesm/" class="p-2 pl-0"><span class="icon-facebook"></span></a>
+                  <a href="https://www.linkedin.com/company/greencandlesm/about/" class="p-2 pl-0"><span class="icon-linkedin"></span></a>
+                  <a href="https://www.instagram.com/greencandlesm/" class="p-2 pl-0"><span class="icon-instagram"></span></a>
+                </div>
+              </div>
+            <!-- <div class="nav_right">
+                <a href="https://www.facebook.com/Greencandlesm/"><img src="./icons/Facebook.png" alt="Facebook"></a>
+                <a href="https://twitter.com/greencandlesm"><img src="./icons/Twitter.png" alt="Twitter"></a>
+                <a href="https://www.instagram.com/greencandlesm/"><i class="fa-brands fa-instagram" style="color: #afca0b;
+                    padding: 8px 8.9px;
+                    border-radius: 3px;
+                    /* width: 30px; */
+                    /* height: 30px; */
+                    background-color: white;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;"></i></a>
+                <a href="https://www.linkedin.com/company/greencandlesm/about/"><img src="./icons/Linkedin.png"
+                        alt="Linkedin"></a>
+            </div> -->
+        </div>
+        <!-- <div class="last_fotere">
+            <div class="last_fotere_p_1">
+                <p>Copyright &copy; 2022. All Rights Reserved</p>
+            </div>
+            <div class="last_fotere_p_2">
+                <p>Design and developed by Adsamy Marketing Agency</p>
+            </div>
+        </div> -->
+    </footer>
+    <!--end footer -->
+    <!--  -->
+    <script src="../bootstrap/bootstrap.js"></script>
+    <script src="../js/all.min.js"></script>
+    <script src="../js/maine.js"></script>
+    <script src="../js/leave And over.js"></script>
+    <script src="../js/holder.js"></script>
+    <script src="../jsNavBar/jquery-3.3.1.min.js"></script>
+    <script src="../jsNavBar/popper.min.js"></script>
+    <script src="../jsNavBar/bootstrap.min.js"></script>
+    <script src="../jsNavBar/jquery.sticky.js"></script>
+    <script src="../jsNavBar/main.js"></script>
+    <!--  -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        let fatherNav = document.getElementById("fatherNav")
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            freeMode: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+        // index.html
+        // let minuoLan = document.getElementById("minuoLan");
+        // let showUl = document.getElementById("showUl");
+        // let ar = document.getElementById("ar");
+        // console.log(ar)
+        // let en = document.getElementById("en");
+        // console.log(en)
+        // minuoLan.onclick = ()=> {
+        //     showUl.classList.toggle("gtSohw")
+        // }
+        // ar.onclick = () => {
+        //     document.title = "Green Candles"
+        // }
+        // en.onclick = () => {
+        //     document.title = "جرين كاندلز"
+        // }
+        // gallre video
+        var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+    </script>
+
+    <!--  -->
+</body>
+
+</html>

@@ -1,0 +1,263 @@
+/* 1500 : 1000 */
+@media (min-width: 1000px) and (max-width: 1500px) {
+    .swiper-slide video {
+        width: 316px;   
+    }
+    .Join-request{
+        padding: 14%;
+    }
+}
+/* 1000 : 950 */
+@media (min-width: 950px) and (max-width: 1000px) {
+    .swiper-slide video {
+        width: 300px;   
+    }
+    .Join-request{
+        padding: 14%;
+    }
+}
+/* 950 : 900 */
+@media (min-width: 900px) and (max-width: 950px) {
+    .swiper-slide video {
+        width: 285px;   
+    }
+    .Join-request{
+        padding: 16%;
+    }
+}
+/* 900 : 800 */
+@media (min-width: 800px) and (max-width: 900px) {
+    .swiper-slide video {
+        width: 250px;   
+    }
+    .Join-request{
+        padding: 16%;
+    }
+}
+/* 800 : 700 */
+@media (min-width: 700px) and (max-width: 800px) {
+    .Join-request{
+        padding: 22%;
+    }
+    .swiper-slide video {
+        width: 225px;   
+    }
+    .box_video video {
+        max-width: 615px;
+    }
+    #myVideo{
+        height: 106vh;
+    }
+    .flow_videoText{
+        margin-top: -30vh;
+    }
+}
+/* 700 : 600 */
+@media (min-width: 600px) and (max-width: 700px) {
+    .Join-request{
+        padding: 27%;
+    }
+    #myVideo{
+        height: 106vh;
+    }
+    .flow_videoText{
+        margin-top: -27vh;
+    }
+    .swiper-slide video {
+        width: 190px;   
+    }
+    .box_video video {
+        max-width: 530px;
+
+    }
+    .form-Join-request > h2,
+.text-title-Join-request h1 {
+    font-size: larger;
+}
+}
+/* 600 : 500 */
+@media (min-width: 500px) and (max-width: 600px) {
+    .Join-request{
+        padding: 33%;
+    }
+    .swiper-slide video {
+        width: 155px;   
+    }
+    .box_video video {
+        max-width: 460px;
+
+    }
+    .form-Join-request > h2,
+.text-title-Join-request h1 {
+    font-size: larger;
+}
+}
+/* 500 : 400 */
+@media (min-width: 400px) and (max-width: 500px) {
+    .Join-request{
+        padding: 36%;
+    }
+    .swiper-slide video {
+        width: 130px;   
+    }
+    .box_video video {
+        max-width: 365px;
+    }
+    #myVideo{
+        height: 70vh;
+    }
+    .flow_videoText{
+        margin-top: -20vh;
+    }
+    .form-Join-request > h2,
+.text-title-Join-request h1 {
+    font-size: larger;
+}
+}
+/* 400 : 300 */
+@media (min-width: 300px) and (max-width: 400px) {
+    .Join-request{
+        padding: 16%;
+    }
+    #myVideo{
+        height: 74vh;
+    }
+    .flow_videoText{
+        margin-top: -26vh;
+    }
+    .swiper-slide video {
+        width: 95px;   
+    }
+    .box_video video {
+        max-width: 270px;
+
+    }
+    #myPlay_live {
+        top: 10px;
+        right: 14px;
+        width: 45px;
+    }
+    #myPlay_live_top{
+        width: 35px;
+    }
+    .form-Join-request > h2,
+.text-title-Join-request h1 {
+    font-size: larger;
+}
+}
+.swiper-wrapper-two video {
+    max-width: 354px;
+    max-height: 220px;
+}
+.mySwiper-two{
+    max-width: 150vh;
+}
+#holder_video video {
+    height: 100%;
+    width: 100%;
+    min-width: 111px;
+}
+/* #video_1,
+#video_2,
+#video_3,
+#video_4,
+#video_5,
+#video_6,
+#video_7,
+#video_8,
+#video_9{
+    z-index: 11;
+} */
+/* #video_1:hover,
+#video_2:hover,
+#video_3:hover,
+#video_4:hover,
+#video_5:hover,
+#video_6:hover,
+#video_7:hover,
+#video_8:hover,
+#video_9:hover {
+    z-index: 10;
+} */
+#holder_video{
+    position: relative;
+}
+#holder_video::after {
+    content: '';
+    position: absolute;
+    background: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: 10;
+}
+.play-icon{
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    top: 35%;
+    z-index: 11;
+    transform: translate(-50%, -50%);
+}
+/* start video live */
+.box_video{
+    position: relative;
+}
+#myPlay_live_top{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#myPlay_live_top {
+    z-index: 9;
+    cursor: pointer;
+}
+#myPlay_live{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+/* serves */
+.start_play_video {
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+    z-index: 1;
+}
+.length{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+}
+/* /serves */
+/* end  video live*/
+@media (max-width: 426px) {
+    .Join-request {
+        padding: 49%;
+    }
+    #myVideo{
+        height: 83vh;
+    }
+    .flow_videoText{
+        margin-top: -30vh;
+    }
+    #rwoIngTwo img {
+        width: 30px !important;
+    }
+    .start_play_video {
+        right: 5px;
+    }
+    .length {
+        top: 5px;
+        left: 7px;
+    }
+    .sc_five{
+        margin-top: 40vh;
+    }    
+    .form-Join-request > h2,
+.text-title-Join-request h1 {
+    font-size: larger;
+}
+}

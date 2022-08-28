@@ -1,0 +1,31 @@
+.flow_videoText h1,
+.flow_videoText h4{
+    direction: ltr;
+}
+.p_one,
+.section_two{
+    direction: ltr;
+}
+.body_sc_three h4{
+    text-align: center;
+    direction: ltr;
+}
+
+.tdawel,
+.tmaiz,
+.contenr_sc_four_top p {
+    text-align: justify;
+    /* direction: rtl; */
+}
+.section_eight{
+    direction: rtl;
+}
+.sc_articles_all_content,
+.section_eight_text,
+.sc_top_my_text p{
+    direction: ltr;
+}
+.p_one,
+.services_four p {
+    direction: ltr;
+}

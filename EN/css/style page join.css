@@ -1,0 +1,342 @@
+
+.title-one-sc{
+    justify-content: space-around;
+}
+.box-1-Join-request{
+    padding: 20px 0px;
+    direction: rtl;
+}
+.box-2-Join-request{
+    padding: 20px 0px;
+    direction: rtl;
+}
+.box-3-Join-request{
+    padding: 20px 0px;
+    direction: rtl;
+}
+.box-4-Join-request{
+    padding: 20px 0px;
+    direction: rtl;
+}
+.form-box-4,
+.form-box-1{
+    margin: 0px auto;
+    background-color: #fcc29d;
+    width: fit-content;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.form-box-4 > div ,
+.form-box-1 > div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 10px 0px;
+}
+.form-box-2-row-3{
+    direction: rtl;
+}
+
+.form-box-4 > div input,
+.form-box-1 > div input{
+    padding: 3px 7px;
+    border: 0px transparent solid;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.form-box-4-row-1{
+    direction: ltr;
+    text-align: end;
+}
+.form-box-4-row-1-checkbox-2{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: end;
+    gap: 5px;
+}
+.form-box-4-row-2{
+    display: flex;
+    direction: ltr;
+    text-align: end;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 45px;
+}
+.father-divs > div {
+    padding: 10px 0px;
+}
+#nameOfTheEmployer{
+    width: 80%;
+}
+/* Start form one  */
+.form-box-1-row-1-check-1,
+.form-box-1-row-1-check-2,
+.form-box-1-row-1-check-3,
+.form-box-1-row-1-check-4{
+    display: flex;
+    gap: 10px;
+}
+.form-box-1-row-2 label{
+    width: 150px;
+}
+/* End form one  */
+/* Start form Two  */
+#fullName {
+    width: 83%;
+}
+.fullName{
+    border: 0px transparent solid;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.form-box-2-row-3{
+    direction: ltr;
+}
+.form-box-2-row-3 label{
+    direction: rtl;
+}
+.w-100{
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-box-2-row-3 div{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+}
+.form-box-2-row-1>label{
+    width: 150px;
+}
+.form-box-2-row-3{
+    justify-content: end;
+}
+.form-box-3-row-1{
+    direction: rtl;
+}
+.form-box-3-row-1 label{
+    direction: rtl;
+}
+.form-box-3-row-3{
+    direction: ltr;
+    justify-content: end;
+}
+.form-box-1-row-3-check-1 label {
+    direction: rtl;
+}
+.form-box-3-row-1-check-2{
+    display: flex;
+    /* width: 60px; */
+}
+/* #CT{
+    width: 80%;
+}
+.form-box-3-row-2-check-2{
+    width: 60%;
+}
+#share3{
+    width: 76%;
+}
+.form-box-1-row-3-check-1{
+    width: 83%;
+}
+#homeNumber{
+    width: 80%;
+} */
+.form-box-1-row-3-check-1{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: end;
+    gap: 10px;
+}
+.form-box-3-row-1  div{
+    direction: ltr;
+    flex-wrap: wrap-reverse;
+    justify-content: end;
+}
+/* End form Two  */
+/* Start form Three  */
+.form-box-4-row-1-checkbox-1 div{
+    margin-top: 20px;
+}
+.itsFather div {
+    justify-content: end;
+    margin-top: 5px;
+    gap: 10px;
+}
+.form-box-4-row-2-checkbox-2,
+.form-box-4-row-2-checkbox-1{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: flex-end;
+}
+.father-divs input{
+    direction: rtl;
+}
+/* handel width */
+.form-box-4,
+#form-box-2,
+#form-box-3
+{
+    width: 896px;
+}
+/* End form Three  */
+/* Start Style text */
+.text-end,
+.form-Join-request > h2,
+.text-title-Join-request h1 {
+    font-weight: bold;
+    text-align: center;
+}
+#form-box-4p h5{
+    font-weight: bold;
+}
+/* End Style text */
+input{
+    direction: rtl;
+}
+#signature{
+    border: 0px transparent solid;
+    outline: 0px transparent solid;
+    border-bottom: 2px solid #fcc29d;
+}
+#signature,
+#myDate{
+    padding: 2px 5px;
+}
+/* #myDate{
+    border: 0px transparent solid;
+    outline: 0px transparent solid;
+} */
+.permit-date label{
+    font-weight: bold;
+    direction: rtl;
+}
+.permit-date{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 15px 5px;
+    gap: 20px;
+}
+.permit-date div{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 10px;
+    align-items: center;
+    margin-top: 5px;
+    justify-content: end;
+}
+.Contact-Permit h5{
+    text-align: end;
+    padding: 10px;
+}
+.myHr{
+    height: 5px;
+    background-color: #e95500;
+}
+/* Start footer form */
+/* style icons */
+.inst{
+    background: #ff0000bd;
+    color: white;
+    padding: 3px 4px;
+    border-radius: 5px;
+}
+.twitt{
+    color: white;
+    background: #0d6efd;
+    padding: 1px 2px;
+    border-radius: 5px;
+}
+.sanp{
+    background: yellow;
+}
+.www{
+    background: red;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+}
+.fac{
+    width: 20px;
+    height: 20px;
+}
+.lastContentContact a{
+    text-decoration: none;
+}
+.lastContentContact p{
+    color: rgba(0, 0, 0, 0.696);
+    white-space: nowrap;
+}
+.lastContentContact p:hover{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+.footer-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 10px 0px;
+    align-items: center;
+}
+.footer-form p{
+    display: inline;
+}
+hr{
+    margin: 0px 0px !important;
+}
+.phone,
+.maktab{
+    display: flex;
+    flex-direction: column;
+    direction: rtl;
+    gap: 5px;
+}
+.wilinl{
+    max-width: 340px;
+}
+.lastLine {
+    margin: 5px 0px;
+}
+.maktab svg ,
+.phone svg {
+    color: #a1988e;
+}
+.maktab p ,
+.phone p {
+    color: rgba(0, 0, 0, 0.67);
+}
+.maktab p:hover ,
+.phone p:hover {
+    color: rgb(0, 0, 0);
+}
+.maktab svg:hover ,
+.phone svg:hover {
+    color: rgb(0, 0, 0);
+}
+
+form {
+    padding-bottom: 20px;
+}
+.submit{
+    background-color: rgba(0, 0, 0, 0.837) !important;
+}
+.submit:hover {
+    background-color: rgb(0, 0, 0) !important;
+}
+/* #a1988e */
+/* End footer form */
